@@ -33,3 +33,8 @@ git commit -m "Add file1 and file2"
 ```
 
 ## Level 3
+git config --global user.name "Pavan Chadaram"
+git config --global user.email "pchadaram@teampurpose.com"
+git config --global core.editor "code --wait"
+git config --global init.defaultBranch main
+git config --list   # verify everything
